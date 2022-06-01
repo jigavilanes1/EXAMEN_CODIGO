@@ -1,0 +1,47 @@
+body,html{
+    height: 100%;
+    padding: 0;
+    margin:0;
+}
+
+body{
+    /*Fondo*/
+    background: linear-gradient(rgba(34,34,34,0.75),rgba(44,62,80,.7)),url('../img/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    font-family: courier;
+}
+
+.logo{
+    height: 150px;
+    margin-top: 20px;
+    margin-bottom: -30px;
+}
+
+.panda{
+    height: 520px;
+    margin-top: -100px;
+}
+.text-description{
+    /*Tipo de letra*/
+    letter-spacing: 2px;
+    font-family: courier;
+}
+
+.form-control{
+    background: transparent !important;
+    color: #fff !important;
+}
+
+a .fab{
+    color: #fff;
+    font-size: 30px;
+    margin: 0 10px;
+}
+
+a .fas{
+    color: #fff;
+    font-size: 30px;
+    margin: 0 10px;
+}
